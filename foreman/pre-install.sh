@@ -14,8 +14,8 @@ apt-get update && apt-get -y install foreman-installer
 
 # Check
 # Ensure that ping $(hostname -f) shows the real IP address, not 127.0.1.1. Change or remove this entry from /etc/hosts if present.
+# hostname --fqdn
 # /etc/init.d/networking restart
 
 # Run
 # foreman-installer
-
